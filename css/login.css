@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #c9c3c6; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #a756a7; 
+    border-color: #a756a7; 
+}
+
+.btn-primary:hover {
+    background-color: #c7a9d6; 
+    border-color: #c7a9d6; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: #a756a7; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c7a9d6;
+}
